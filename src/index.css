@@ -1,0 +1,58 @@
+body,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.name-bg,
+.active-bg {
+  background: #6291b9;
+  opacity: 0.9;
+  font-weight: bolder;
+  color: #000;
+}
+
+.overlaping-container {
+  position: relative;
+  background-color: #ffffff;
+}
+
+.card-header,
+.card-body,
+.navbar-light {
+  background: #ffffff !important;
+}
+
+.overlap {
+  position: absolute;
+  width: 100%;
+  margin-top: -2rem;
+}
+
+.badge-user {
+  display: flex;
+  background: #74a0c7;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  align-items: center;
+  border: radius 8px;
+  color: #000000;
+}
+
+.btn-bg {
+  background: #cccccc !important;
+  border: none !important;
+  border-radius: 8px !important;
+}
